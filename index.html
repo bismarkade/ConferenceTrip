@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./libs/v6.0.0-dist/ol.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class= "grid-container">
+        <div class= grid-1> 
+            <div class="column-navigation">
+                <a title='Home' id='Home' class='active'><i class="fas fa-home" id="Home"></i></a>
+                <a title='Olomouc' id='Olomouc'><i class="fas fa-train" id='Olomouc'>Olomouc</i></a>
+                
+                <a title='Vienna' id='Vienna'><i class="fas fa-plane-departure" id='Vienna'> Vienna</i></a>
+                <a title='Singapore' id='Singapore'><i class="fas fa-atlas" id='Singapore'>Singapore</i></a>
+                <a title='Jakarta' id='Jakarta'><i class="fas fa-plane-departure" id='Jakarta'>Jarkata</i></a>
+                <a title='Benkulu' id='Benkulu'><i class="fas fa-atlas" id='Benkulu'>Benkulu</i></a>
+                <a title='KualaLumpur' id='KualaLumpur'><i class="fas fa-atlas" id='KualaLumpur'>Kuala Lumpur</i></a>
+            </div>
+        </div>
+
+        <div class="grid-2">
+            <div class="map" id='js-map'></div>
+        </div>
+
+        <div class="grid-3">
+            <div class="column-menu" id="menu-information">
+                <p id="Cityname"> Conference Tour Map- 2016 <br> click cities for the experience</p>
+                <img id="City_image" src="./data/City_images/olomouc.jpg" alt="olomouc">
+            </div>
+
+           
+            
+
+        </div>
+
+    </div>
+
+    <div class="overlay-container">
+
+    </div>
+    <script src="https://kit.fontawesome.com/01eba8ba30.js" crossorigin="anonymous"></script>
+    <script src="./libs/v6.0.0-dist/ol.js"></script>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
